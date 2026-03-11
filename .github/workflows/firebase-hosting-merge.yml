@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CRYONE_PRESALE_2026 }}
           channelId: live
           projectId: cryone-presale-2026
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
